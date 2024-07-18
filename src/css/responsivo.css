@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+  html {
+    background: url(../images/bg-mobile.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--violet-bg);
+  }
+
+  .header {
+    padding: 5rem 5rem;
+  }
+
+  .container {
+    padding: 0 5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .mockups {
+    width: 100%;
+    text-align: center;
+  }
+
+  .container .mockups img {
+    width: 85%;
+  }
+
+  .container .info {
+    width: 100%;
+    margin-left: 0;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .container .info p {
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+    font-weight: 300;
+  }
+
+  .container .info .btn-registro {
+    align-self: center;
+    margin-top: 1.5rem;
+  }
+
+  .footer {
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    background: url(../images/bg-mobile.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--violet-bg);
+  }
+
+  .header {
+    padding: 4rem 4rem;
+  }
+
+  .header .logo {
+    width: 200px;
+    height: 62px;
+  }
+
+  .header .logo img {
+    height: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4rem;
+    text-align: center;
+  }
+
+  .container .mockups {
+    width: 100%;
+  }
+
+  .container .mockups img {
+    width: 100%;
+  }
+
+  .container .info {
+    width: 100%;
+    padding: 1.5rem;
+    margin-left: 0;
+    gap: 1rem;
+  }
+
+  .container .info h1 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
+
+  .container .info p {
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+
+  .container .info .btn-registro {
+    padding: 1.2rem 8rem;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .footer i {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+}

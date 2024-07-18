@@ -1,0 +1,110 @@
+html {
+  font-size: 62.5%; /* 1.6rem = 16px, 2rem = 20px */
+  font-family: "Open Sans", sans-serif;
+  background: url(../images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: var(--violet-bg);
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 5rem 10rem;
+}
+
+.header .logo {
+  width: 266px;
+  height: 67px;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  padding: 0 10rem;
+}
+
+.container .mockups {
+  width: 55%;
+  margin: auto 0;
+}
+
+.container .mockups img {
+  width: 100%;
+}
+
+.container .info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 45%;
+  padding: 4rem;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.container .info h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.container .info p {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 3rem;
+  font-weight: 300;
+}
+
+.container .info .btn-registro {
+  color: var(--violet-bg);
+  background-color: #fff;
+  align-self: flex-start;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 1.8rem 8rem;
+  border-radius: 4rem;
+  box-shadow: 3px 3px 10px #14141463;
+}
+
+.container .info .btn-registro:hover {
+  color: #fff;
+  background-color: var(--soft-magenta-bg);
+  transition: 0.3s;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: 0 15rem;
+}
+
+.footer i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer i:hover {
+  color: rgb(250, 83, 192);
+  border-color: rgb(250, 83, 192);
+}
